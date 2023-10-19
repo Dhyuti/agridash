@@ -1,0 +1,73 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore the virtual environment directory
+venv/
+.env
+
+# Ignore database files
+*.sqlite3
+
+# Ignore log files
+*.log
+
+# Ignore secret and sensitive data
+secret_key.py
+settings/local.py
+
+# Ignore media files
+media/
+
+# Ignore static files (generally, these should be collected during deployment)
+static/
+
+# Ignore compiled translations
+locale/
+
+# Ignore the local development settings
+local_settings.py
+
+# Ignore .vscode directory (for Visual Studio Code settings)
+.vscode/
+
+# Ignore development and operating system-specific files
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore local configuration files
+*.ini
+
+# Ignore user-specific IDE and editor configuration files
+.idea/
+*.iml
+*.pyproj
+*.DS_Store
+
+# Ignore generated Python documentation
+doc/build/
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore test database
+test_db/
+
+# Ignore pipenv files (if you're using pipenv for dependency management)
+Pipfile
+Pipfile.lock
+
+# Ignore development, cache, and temp folders
+__pypackages__/
+__pycache__/
+.cache/
+.tmp/
+
+# Ignore Docker-related files (if you're using Docker)
+docker-compose.yml
+Dockerfile
+
+# Ignore any other build or configuration files
+build/
+config/
