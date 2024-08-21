@@ -65,3 +65,5 @@ Dockerfile
 # Ignore any other build or configuration files
 build/
 config/
+
+media/

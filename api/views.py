@@ -8,7 +8,7 @@ from .utils import getPlantList, getPlantDetail, createPlant, updatePlant, delet
 # HTML Views
 
 def base(request):
-    return render(request, 'base.html')
+    return render(request, 'base.html', {'show_special_text': True})
 
 def index(request):
     plants = Plant.objects.all()

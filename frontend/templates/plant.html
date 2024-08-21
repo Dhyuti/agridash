@@ -4,7 +4,7 @@
 
 {% block content %}
 <h1>{{ plant.name }}</h1>
-<img src="{{ plant.image }}" alt="{{ plant.name }}" width="200">
+<img src="{{ plant.image.url }}" alt="{{ plant.name }}" width="200">
 <p><strong>Suitable Weather:</strong> {{ plant.weather }}</p>
 <p><strong>Management:</strong> {{ plant.management }}</p>
 <p><strong>Market Price:</strong> {{ plant.market_price }}</p>
