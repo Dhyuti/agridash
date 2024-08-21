@@ -10,8 +10,8 @@ The Farming Dashboard is a web application built with Django Rest Framework that
 ## Features
 
 - **Crop Information**: Access detailed information about various crops, including planting schedules, growth stages, and recommended practices.
-- **Weather Data**: Real-time weather data for better decision-making, including weather forecasts and historical data.
-- **Crop Management**: Input data about crops, such as planting dates and care practices, and receive recommendations and reminders.
+- **Weather Data**: Weather data for better decision-making, including weather forecasts and historical data.
+- **Crop Management**: Input data about crops, such as planting dates and care practices.
 - **Market Data**: Real-time market data, including crop prices, to make informed selling decisions.
 - **Farming Tips**: Educational content and tips to improve farming skills.
 
