@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Plant List{% endblock %}
+
+{% block content %}
+<h1>Plant List</h1>
+<a href="{% url 'create_plant' %}">Create New Plant</a>
+<ul>
+    {% for plant in plants %}
+    <li>
+        <img src="{{ plant.image.url }}" alt="{{ plant.name }}" width="100">
+        <h2><a href="{% url 'plant_detail' plant.id %}">{{ plant.name }}</a></h2>
+        <a href="{% url 'delete_plant' plant.id %}" class="delete-btn">Delete</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

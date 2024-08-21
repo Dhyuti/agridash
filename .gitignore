@@ -16,12 +16,6 @@ venv/
 secret_key.py
 settings/local.py
 
-# Ignore media files
-media/
-
-# Ignore static files (generally, these should be collected during deployment)
-static/
-
 # Ignore compiled translations
 locale/
 
