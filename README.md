@@ -1,19 +1,6 @@
 # AGRIDASH
 
-A dashboard which provides user with data to perform farming in an optimized way. This project allows farmers to access essential information and resources to improve their farming practices.
-
-
-## Introduction
-
-The Farming Dashboard is a web application built with Django Rest Framework that serves as a tool for farmers to optimize their farming practices. It provides access to crucial data and resources, including crop information, weather data, market price, and more, to enhance the efficiency of farming operations.
-
-## Features
-
-- **Crop Information**: Access detailed information about various crops, including planting schedules, growth stages, and recommended practices.
-- **Weather Data**: Weather data for better decision-making, including weather forecasts and historical data.
-- **Crop Management**: Input data about crops, such as planting dates and care practices.
-- **Market Data**: Real-time market data, including crop prices, to make informed selling decisions.
-- **Farming Tips**: Educational content and tips to improve farming skills.
+Built with Django, this website displays farmed items from the college’s agricultural department using RESTful APIs.
 
 ## Usage
 
